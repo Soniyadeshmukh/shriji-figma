@@ -1,0 +1,1625 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #B7E5CD;
+}
+#header{
+    width: 1499.6px;
+    height: 101.6px;
+    background-color:#FFFFFF;
+    margin-left: 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+   
+}
+#nav{
+    width: 1439.6px;
+    height: 51.6px;
+    position: absolute;
+   margin-top: 25px;
+   margin-left:30px ;
+}
+#logo{
+    width: 191px;
+    height: 77px;
+    margin-top: -10px;
+    margin-left: 12px;
+    background-image: url(Logo.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#link{
+    width: 578px;
+    height: 18px;
+   margin-left: 461px;
+   margin-top: -42px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#link a{
+    text-decoration: none;
+   color: #000000;
+font-size: 16px;
+text-transform: capitalize;
+font-weight: 500;
+ font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#menu-btn{
+    display: none;
+}
+#click-me{
+    display: none;
+}
+
+
+#icons{
+    width: 145.47px;
+    height: 40px;
+    position: absolute;
+    margin-left: 1112px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #F16CA7;
+}
+#icon i{
+    font-size: 20px;
+    color: #017B93;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+#nav button{
+    width: 162.14px;
+    height: 50px;
+    position: absolute;
+    margin-top: -34px;
+    border-radius: 10px;
+    margin-left: 1277.47px;
+    color: #FFFFFF;
+    background-color: #017B93;
+    border: none;
+}
+#background{
+    width: 1499.6px;
+    height: 722px;
+    background-image: url(wonderful\ journey\ of\ chewing\ gum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+margin-left: 15px;
+    margin-top: 31.6px;
+    border-radius: 20px;
+}
+#background1{
+    width: 1499.6px;
+    height: 722px;
+    opacity: 80px;
+    border-radius: 20px;
+    background-color: #121820db;
+}   
+#background1 h1{
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 600;
+    font-size: 46px;
+color: #FFFFFF;
+position: absolute;
+margin-left: 510px;
+margin-top: 32px;
+text-align: center;
+} 
+#background1 span{
+    font-style: italic;
+      font-family: "Lora", serif;
+      font-size: 46px;
+      font-weight: 400;
+}
+#background1 p{
+    position: absolute;
+    margin-top: 193px;
+    margin-left: 510px;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 16px;
+    color: #FFFFFF;
+ font-family:"Plus Jakarta Sans", sans-serif ;
+}
+
+#background1 h5 i{
+  color: #F16CA7;
+}
+
+#background1 h5{
+    margin-left: 42%;
+    font-size: 18px;
+    color: #FFFFFF;
+padding-top: 125px;
+     font-style: italic;
+      font-family: "Lora", serif;
+      font-weight: 400;
+
+}
+#background1 #buttons{
+    margin-left: 42%;
+    margin-top: 19%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+#background1 .button1{
+    width: 161px;
+    height: 50px;
+    background-color:#017B93;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+}#background1 .button2{
+    width: 169px;
+    height: 50px;
+    background-color:#ffffff00;
+    color: #FFFFFF;
+    border: none;
+
+    border-radius: 10px;
+}
+.button2 i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+    color: #017B93;
+    border: 1px solid #017B93;
+}
+#bubble{
+    width: 45%;
+    height: 15%;
+    margin-top: 4%;
+    margin-left: 29%;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    border-top: 1px solid rgba(97, 93, 93, 0.54);
+}
+#bubble a{
+    text-decoration: none;
+    color: #FFFFFF;
+ font-family:"Plus Jakarta Sans", sans-serif ;
+   font-size: 16px;
+}
+#bubble a img{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+
+
+#background2{
+    width: 1499.6px;
+    height: 719.3px;
+    margin-top: 24.6px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+#container{
+   width: 95%;
+    height: 100%;
+    background-color:white;
+    margin-left: 2.5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#container #box1{
+    width: 40%;
+    height: 70%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+}
+#box1 h5{
+    margin-top: 8%;
+    margin-left: 7%;
+    font-size: 32px;
+    color:  rgb (10, 137, 142);
+}
+#box1 h2{
+    margin-top: 3%;
+    margin-left: 7%;
+    font-size: 32px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box1  h2 span{
+      font-family: "Parisienne", cursive;
+      font-weight: normal;
+      font-style: italic;
+}
+#box1 p{
+    margin-top: 2%;
+    margin-left: 7%;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(61, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box1 p span{
+    color: black;
+    font-weight: 600;
+}
+#box1 #points{
+    width: 100%;
+    height: 20%;
+    margin-left: -1%;
+    margin-top: -3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#points .iconic1{
+    width: 17px;
+    height: 17px;
+    background-color: rgb(241, 32, 199);
+    border-radius: 50%;
+}
+#points h4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: -15%;
+    color: rgb(61, 58, 58);
+}
+.iconic1 i{
+    color: white;
+}
+#box1 h5 i{
+    margin-top: 8%;
+    color:  rgb(6, 107, 110);
+}
+#box1 h5{
+    font-size: 15px;
+}
+#box1  p #span{
+    color: black;
+    font-weight: 600;
+}
+#box1 button{
+    margin-left: 6%;
+    margin-top: 1%;
+    width: 26%;
+    height: 7%;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(15, 133, 137);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box1 button i{
+    color: #F16CA7;
+}
+
+#container #box2{
+    width: 40%;
+    height: 60%;
+   
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box2 .candy1{
+    width: 47%;
+    height: 90%;
+    background-color: burlywood;
+    border-radius: 10px;
+    background-image:url(chewing-gum.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+#box2 .candy2{
+    width: 47%;
+    height: 90%;
+    background-color: burlywood;
+    border-radius: 10px;
+    background-image: url(candy.jpg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+#box3{
+    width: 90%;
+    height: 20%;
+    margin-top: 40%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#line1{
+    width: 87%;
+    height: 0.04%;
+    background-color: rgba(128, 128, 128, 0.668);
+    margin-top: 25%;
+    position: absolute;
+}
+#box3 .set{
+    width: 27%;
+    height: 50%;
+    margin-top: -30px;
+    
+}
+#box3 #set2 h2{
+    margin-top: -9px;
+    font-size: 18px;
+}
+#box3 #set2 .ico{
+    margin-top: -8px;
+    font-size: 20px;
+}
+.set h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.set h4{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 2%;
+    font-weight: 200;
+    margin-left: 20%;
+
+}
+.set .line5{
+    width: 0.01%;
+    height: 25%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    background-color: rgb(184, 177, 177);
+}
+.set #iconic2{
+    width: 4%;
+    height: 30%;
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 2%;
+}
+#iconic2 i{
+    color: rgb(248, 80, 214);
+    text-align: center;
+    font-size: 29px;
+    font-weight: 100;
+}
+
+.tag{
+width: 90px;
+height: 90px;
+
+position: absolute;
+background-color: rgb(15, 133, 137);
+border-radius: 5cm;
+border: 4px solid white;
+right: 23%;
+margin-top: 16%;
+align-items: center;
+padding:20px 30px;
+
+} 
+.tag h3{
+    color: white;
+    margin-top: 40%;
+    text-align: center;
+}
+
+
+
+.tag h5{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+svg{
+     position: absolute;
+    margin-top: 16.5%;
+    right: 23.6%;
+}
+svg text{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:white;
+
+}   
+
+
+
+#background3{
+    width: 1499.6px;
+    height: 989.3px;
+    margin-top: 24.6px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#background3 h5{
+   padding-top: 60px;
+    font-size: 20px;
+    color:  rgb(10, 137, 142);
+}
+#background3 h2{
+   padding-top: 20px;
+   
+    font-size: 46px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#background3  h2 span{
+      font-family: "Parisienne", cursive;
+      font-weight: normal;
+      font-style: italic;
+}
+#background3 p{
+    margin-top: 1%;
+    margin-left: 17%;
+    margin-right: 17%;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(61, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#best-offers{
+    width: 80%;
+    height: 60%;
+    margin-top: 7%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .offer1{
+    width:30% ;
+    height: 100%;
+    gap: 10px;
+    
+} 
+.offer1 #bubble1{
+    width: 90%;
+    height: 31%;
+    margin-left: 5%;
+    margin-top: 3%;
+    
+}
+.offer1 #bubble2{
+    width: 90%;
+    height: 31%;
+    margin-left: 5%;
+    margin-top: 1%;
+    
+}
+.offer1 #bubble3{
+    width: 90%;
+    height: 31%;
+    margin-left: 5%;
+    margin-top: 1%;
+    
+}
+.offer1 .circle3{
+    width: 65px;
+    height: 65px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 2%;
+    background-image: url(ball-bubble-gum.webp);
+    background-position: center;
+    background-size: cover;
+}
+.offer1 .circle4{
+    width: 65px;
+    height: 65px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 2%;
+    background-image: url(bazooka-bubble-gum.webp);
+    background-position: center;
+    background-size: cover;
+}
+.offer1 .circle5{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-image: url(coating-chewing-gum.webp);
+    margin: 2%;
+    background-position: center;
+    background-size: cover;
+}
+#bubble1 h3{
+    margin-left: 90px;
+    margin-top: -23%;
+    font-size: 20px;
+    line-height: 25px;
+}#bubble1 h4{
+    margin-left: 90px;
+    font-size: 15px;
+    line-height: 25px;
+
+}#bubble1 p{
+    margin-left: 90px;
+    font-size: 15px;
+    line-height: 30px;
+    color: blue;
+
+}
+
+
+
+
+
+#bubble2 h3{
+    margin-left: 90px;
+    margin-top: -23%;
+    line-height: 25px;
+    font-size: 20px;
+   
+
+}#bubble2 h4{
+    margin-left: 90px;
+ line-height: 25px;
+ font-size: 15px;
+}#bubble2 p{
+    margin-left: 90px;
+    color: blue;
+    font-size: 15px;
+     
+}
+
+#bubble3 h3{
+    margin-left: 90px;
+    margin-top: -23%;
+    line-height: 25px;
+    font-size: 21px;
+
+}#bubble3 h4{
+    margin-left: 90px;
+    font-size: 15px;
+    line-height: 25px;
+}#bubble3 p{
+    margin-left: 90px;
+    font-size: 15px;
+    color: blue;
+}
+.offer3 #bubble1{
+    width: 90%;
+    height: 31%;
+    margin-left: 5%;
+    margin-top: 3%;
+    
+}
+.offer3 #bubble2{
+    width: 90%;
+    height: 31%;
+    margin-left: 5%;
+    margin-top: 1%;
+    
+}.offer3 #bubble3{
+    width: 90%;
+    height: 31%;
+    margin-left: 5%;
+    margin-top: 1%;
+    
+}
+
+
+.offer3 .circle3{
+    width: 65px;
+    height: 65px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 2%;
+    background-image: url(ball-bubble-gum.webp);
+    background-position: center;
+    background-size: cover;
+}
+.offer3 .circle4{
+    width: 65px;
+    height: 65px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 2%;
+    background-image: url(bazooka-bubble-gum.webp);
+    background-position: center;
+    background-size: cover;
+}
+.offer3 .circle5{
+    width: 65px;
+    height: 65px;
+    background-color: green;
+    border-radius: 50%;
+    background-image: url(coating-chewing-gum.webp);
+    margin: 2%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+ .offer2{
+    width:30% ;
+    height: 100%;
+    gap: 10px;
+     background-image: url(best-offers.png);
+    background-size: cover;
+    background-position: center;
+    
+} 
+
+
+
+#background4{
+    width: 1499.6px;
+    height: 789.3px;
+    margin-top: 24.6px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#background4 h5{
+   padding-top: 60px;
+    font-size: 20px;
+    color:  rgb(10, 137, 142);
+}
+#background4 h2{
+   padding-top: 20px;
+   
+    font-size: 46px;
+    color: black;
+ font-family:"Plus Jakarta Sans", sans-serif ;
+
+}
+#background4  h2 span{
+      font-family: "Lora", serif;
+
+      font-weight: normal;
+      font-style: italic;
+}
+#candies{
+    width: 80%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.coating-chewing-gum{
+    width: 22%;
+    height: 100%;
+    border-radius: 20px;
+background-color: #8b5e3c11;
+}
+.coating-chewing-gum h3{
+    margin-left: 0%;
+ font-family:"Plus Jakarta Sans", sans-serif ;
+ margin-top: 7%;
+ color: #121820;
+ font-size: 20px;
+
+}
+.coating-chewing-gum h4{
+    margin-left: -10%;
+    margin-top:5% ;
+ color: #121820;
+
+ font-family:"Plus Jakarta Sans", sans-serif ;
+
+}
+.coating1{
+    width: 100%;
+    height: 70%;    
+    background-image: url(Figure_mask-group-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coating2{
+    width: 100%;
+    height: 70%;
+    background-image: url(Figure_mask-group1-removebg-preview.png);
+  background-repeat: no-repeat;
+    background-position: center;
+}
+.coating3{
+    width: 100%;
+    height: 70%;
+    background-image: url(Figure_mask-group2-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.coating4{
+    width: 100%;
+    height: 70%;
+    background-image: url(Figure_mask-group3-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#background5{
+    width: 1499.6px;
+    height: 759.3px;
+    margin-top: 24.6px;
+    margin-left: 15px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#background5 h5{
+   padding-top: 60px;
+    font-size: 20px;
+    color:  rgb(10, 137, 142);
+    font-style: italic;
+      font-family: "Lora", serif;
+
+}
+#background5 h2{
+   padding-top: 20px;
+   
+    font-size: 46px;
+    color: black;
+ font-family:"Plus Jakarta Sans", sans-serif ;
+
+}
+#background5  h2 span{
+      font-family: "Lora", serif;
+
+      font-weight: normal;
+      font-style: italic;
+}
+#certificates{
+    width: 95%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.certificate{
+    width: 19%;
+    border-radius: 20px;
+    height: 100%;
+    background-image: url(fssai-certificate.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#footer{
+    width: 1499px;
+    height: 528px;
+   
+    margin-left: 1%;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+#container4{
+   width: 1499px;
+    height: 60%;
+    background-color:#017B93 ;
+   
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.division{
+    width: 45%;
+    height: 90%;
+}
+#gum{
+    width: 22%;
+    border-radius: 10px;
+    margin-left: 14%;
+    height: 19%;
+    background-color: white;
+
+    
+}
+#gum img{
+    width: 210%;
+    height: 290%;
+    margin-top: -46%;
+    margin-left: -55%;
+}
+#nav1{
+    width: 380%;
+    height: 80%;
+    margin-left: -12%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -30%;
+}
+#nav1 a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#no{
+    width: 350%;
+    height: 290%;
+
+
+    margin-top: -5%;
+}
+#no h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+#no h6{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+#no h5{
+    color: white;
+    font-size: 19px;
+    margin-top: 17%;
+    font-weight: 300;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#line15{
+    width: 81%;
+    height: 0.04%;
+    background-color: rgba(128, 128, 128, 0.733);
+    margin-top: 24.3%;
+    margin-left:11% ;
+    position: absolute;
+}
+#div2 h2{
+    margin-top: 10%;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+#div2 p{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+     font-family: "Open Sans", sans-serif;
+}
+#enter{
+    width: 94%;
+   margin-top:4%;
+    height: 11%;
+}
+#enter input{
+    width: 70%;
+    height: 100%;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color:rgba(6, 191, 198, 0.253) ;
+    border: none;
+    padding: 5px;
+    
+}
+#enter input::placeholder{
+    color: white;
+}
+#enter button{
+    width: 29.3%;
+    margin-left: -2%;
+    height: 100%;
+    background-color: rgb(237, 45, 109);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+#follows{
+    width: 85%;
+    height: 11%;
+   
+    margin-top: 6%;
+}#follows h2{
+    font-size: 22px;
+    margin-top: 5%;
+    color: white;
+}
+#follows .links{
+    width: 50%;
+    height: 100%;
+    margin-top: -7%;
+    margin-left: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#follows .link{
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+}
+.link i{
+    text-align: center;
+    color: rgb(222, 44, 104);
+    
+    padding: 7px;
+    position: absolute;
+    font-size: 22px;
+}
+ #div2 .last{
+    width: 30%;
+    height: 10;
+}
+#div2 h5{
+    margin-top: 14%;
+    margin-left: 30%;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div2 h6{
+    margin-top: 14%;
+    margin-left: 20%;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    font-weight: 100;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div2 .line16{
+    width: 0.01%;
+    height: 7%;
+    margin-top: 1%;
+    margin-top: 19.5%;
+    margin-left: 28.5%;
+    background-color: rgb(99, 98, 98);
+    position:absolute;
+   
+}
+
+
+
+
+
+
+
+@media (max-width:748px) {
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+
+  #header{
+width: 100%;
+  }
+  #nav{
+    width: 100%;
+  }
+  #menu-btn{
+    display:block;
+    font-size: 18px;
+    margin-left: 60%;
+    position: absolute;
+    top: 12%;
+}
+
+#nav #link{
+    position: absolute;
+    top: 0%;
+    right: 120%;
+    background-color: white;
+    width: 30%;
+    height: 777%;
+    transition: 1s ease-in-out;
+    margin-top: 100px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+    border-radius: 20px;
+
+}
+
+
+#nav #link a{
+    color: black;
+    display: block;
+    margin: 1.5rem;
+    padding: .5rem;
+    font-size: 16px;
+} 
+#nav #link.active{
+    right: 10%;
+}
+
+
+#click-me{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    margin-left: 75%;
+    position: absolute;
+    top: 12%;
+}
+#click-me a{
+     
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+#nav #icons{
+    position: absolute;
+    top: -4%;
+    right: 120%;
+    background-color:white ;
+    width: 30%;
+    height: 700%;
+    transition: 1s ease-in-out;
+    margin-top: 130px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+}
+#nav button{
+    display: none;
+}
+#nav #icons.active{
+    right: 10%;
+}
+#header #icons i{
+    margin-left: -4%;
+}
+
+#background{
+    width: 100%;
+}
+#background1{
+    width: 100%;   
+   
+}
+#background1 h5{
+    margin-left: 35%;
+}
+#background1 h1{
+    margin-left: 18%;
+}
+#background1 p{
+    margin-left: 18%;
+}
+#background1 #buttons{
+    margin-top: 35%;
+    width: 30%;
+    height: 10%;
+    margin-left: 36%;
+
+}
+#background1 #bubble{
+    width: 65%;
+    height: 10%;
+    margin-left: 17%;
+}
+#background2{
+    width: 100%;
+    height: 180%;
+  
+}
+#background2 #container{
+    width: 100%;
+    height: 120%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 0%;
+}
+#container #box1{
+    width: 100%;
+    height: 35%;
+}
+#container #box1 button{
+    width: 20%;
+    height: 8%;
+}
+#container #box2{
+    width: 90%;
+    height: 50%;
+    margin-top:-20% ;
+
+}
+#box2 .candy1{
+height: 60%;
+margin-top: -30%;
+}
+#box2 .candy2{
+height: 60%;
+margin-top: -30%;
+}
+.tag{
+    position: absolute;
+margin-top: 100%;
+left: 44%;
+    width: 17%;
+    height: 20%;
+}
+svg{
+    margin-top: 101.5%;
+   position: absolute;
+   left: 44.5%;
+   width: 16%;
+   height: 16%;
+}
+#line1{
+    margin-top: 110%;
+}
+#box3{
+    margin-top: 140%;
+    width: 90%;
+    height: 25%;
+}
+#box3 #iconic2{
+    margin-left: -2%;
+}
+#background3{
+    width: 100%;
+    height: 400%;
+    margin-top: 35%;
+}
+
+#best-offers{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 0%;
+
+}
+
+#best-offers .offer1{
+    width: 70%;
+    height: 40%;
+    margin-left: 15%;
+}
+
+#best-offers .offer1 h3{
+    margin-top: -16%;
+    font-size: 20px;
+
+}
+#best-offers .offer2{
+    width: 70%;
+    height: 60%;
+    margin-left: 15%;
+}
+
+#best-offers .offer3{
+    width: 70%;
+    height: 40%;
+    margin-left: 15%;
+}
+
+#best-offers .offer3 h3{
+    margin-top: -16%;
+    font-size: 20px;
+}
+#background4{
+    width: 100%;
+height: 400%;
+}
+#candies{
+    width: 60%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 18%;
+}
+.coating-chewing-gum{
+    width: 100%;
+    height: 23%;
+}
+#background5{
+    width: 100%;
+height: 650%;
+}
+#certificates{
+    width: 70%;
+    height: 92%;
+    margin-top: 5%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+} 
+
+.certificate{
+    width: 100%;
+    height: 19%;
+}
+
+#footer{
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 24px;
+}
+#container4{
+    width: 100%;
+    height: 130%;
+flex-direction: column;
+}
+.division{
+    width: 100%;
+    height: 45%;
+}
+ #gum{
+    width: 22%;
+    height: 22%;
+    margin-top: 3%;
+    margin-left: 5%;
+    background-color:white;
+} 
+
+
+#gum #no{
+    margin-top: -18%;
+}
+#gum h5{
+    margin-top: 3%;
+}
+#div2{
+    margin-top: -18%;
+}
+#div2 h2{
+    margin-left: 5%;
+}
+#div2 p{
+    margin-left: 5%;
+}
+#div2 h6{
+    margin-left: 5%;
+    margin-top: 25%;
+}
+#div2 h5{
+    margin-top: 25%;
+}
+#enter{
+    margin-left: 5%;
+}
+#follows h2{
+      margin-left: 5%;
+      margin-top: -2%;
+}
+#follows .links{
+    margin-top: -5%;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+ #header{
+    overflow: hidden;
+ }
+    #header #link{
+        width: 45%;
+    }
+     #header #icons{
+        height: 400%;
+     }
+      #header #icons i{
+       margin-left: -7%;
+     }
+
+#background1 h1{
+   font-size: 35px;
+   margin-left: 10%;
+   margin-top: 7%;
+}  
+#background1 h5{
+    margin-left: 27%;
+}   
+#background1 p{
+   font-size: 10px;
+   margin-left: 8%;
+   margin-top: 48%;
+
+}
+#background1 #buttons{
+    width: 70%;
+    height: 20%;
+    margin-top: 53%;
+    margin-left: 38%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+ #buttons .button1{
+    width: 45%;
+    height: 35%;
+    font-size: 16px;
+ }
+ #buttons .button2{
+    width: 45%;
+    height: 35%;
+    font-size: 16px;
+   
+ }
+
+#background1 #bubble{
+    width: 100%;
+    height: 10%;
+    margin-left: 0%;
+ }
+ #background1 #bubble a{
+    font-size: 16px;
+    margin-top: -10%;
+ }
+#background2{
+    width: 100%;
+    height: 100%;
+}
+
+#background2 #box1{
+    margin-left: 0%;
+    margin-top: -9%;
+} 
+#box1 h2{
+    font-size: 26px;
+}
+#box1 p{
+    font-size: 14px;
+}
+#box1 #points{
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+ 
+}
+#box1 #points h4{
+    font-size: 12px;
+}
+#background2 #box1 button{
+    width: 30%;
+    margin-top: -2%;
+    height: 12%;
+}
+#background2 #box2{
+    width: 90%;
+    height: 44%;
+    margin-top: 13%;
+}
+.tag{
+    width: 20%;
+    height: 10%;
+    margin-top: 138%;
+}
+svg{
+    margin-top: 132%;
+    margin-left: 1.5%;
+}
+#background2 #line1{
+    margin-top: 146%;
+}
+#background2 #box3{
+margin-top: 185%;
+width: 100%;
+}
+
+#background2 #box3 h2{
+    font-size: 14px;
+}
+#iconic2{
+    width: 7%;
+    height: 7%;
+}
+
+#background2 #box3 #set2{
+margin-top: -9%;
+}
+#background2 #box3 .set{
+    margin-top: -2%;
+}
+
+
+#background3{
+    width: 100%;
+    height: 250%;
+  margin-top: 43%;
+}
+#best-offers{
+    width: 100%;
+    height: 75%;
+}
+#best-offers .offer2{
+    height: 35%;
+    width: 75%;
+}
+#best-offers .offer1 h3{
+    margin-top: -20%;
+}
+
+#best-offers .offer1{
+    width: 90%;
+    height: 28%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#best-offers .offer3 h3{
+    margin-top: -20%;
+}
+
+#best-offers .offer3{
+    width: 90%;
+    height: 28%;
+    margin-left: 5%;
+}
+#background4{
+    width: 100%;
+    height: 330%;
+}
+#background4 #candies{
+    height: 80%;
+    width: 100%;
+    margin-left: 0%;
+}
+.coating-chewing-gum{
+    width: 80%;
+    height:20% ;
+    margin-left: 10%;
+}
+#background5{
+    width: 100%;
+    height:400% ;
+}
+#background5 h2{
+    font-size: 38px;
+}
+#background5 #certificates{
+    width: 100%;
+    height: 88%;
+    margin-left: 0%;
+}
+#background5 .certificate{
+width: 80%;
+height: 16%;
+margin-left: 10%;
+
+}
+
+#footer{
+    width: 100%;
+    height: 120%;
+    background-color: #F16CA7;
+    margin-left: 2%;
+}
+#footer #container4{
+    width: 100%;
+    height: 120%;
+  
+}
+#container4 #gum{
+   width: 40%;
+   height: 20%;
+}
+
+#div1 #nav1{
+   display: flex;
+   justify-content: space-around;
+   width: 220%;
+   font-size: 14px;
+   margin-left: 0%;
+}
+#div1 #nav1{
+    font-size: 8px;
+}
+#div2 h2{
+    margin-top: 13%;
+}
+#div2 p{
+    font-size: 18px;
+}
+#container4 #div2 h6{
+    margin-left: 5%;
+    margin-top: 60%;
+}
+
+#container4 #div2 h5{
+    margin-left: 40%;
+    margin-top: 60%;
+}
+#enter{
+    width: 100%;
+}
+#enter input{
+    width: 80%;
+    margin-left: 5%;
+
+}
+#enter button{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#follows h2{
+     margin-top: 22%; 
+      font-size: 22px; 
+} 
+#follows .links{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+
+
+}
